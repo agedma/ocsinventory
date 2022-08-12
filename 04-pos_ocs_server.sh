@@ -91,7 +91,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do OCS Inventory Server, aguarde..."
 	sleep 2
-	vim /etc/apache2/conf-available/z-ocsinventory-server.conf
+	nano /etc/apache2/conf-available/z-ocsinventory-server.conf
 echo -e "Arquivo de configuração do OCS Inventory Server editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
@@ -118,7 +118,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do OCS Inventory RestApi, aguarde..."
 	sleep 2
-	vim /etc/apache2/conf-available/zz-ocsinventory-restapi.conf
+	nano /etc/apache2/conf-available/zz-ocsinventory-restapi.conf
 echo -e "Arquivo de configuração do OCS Inventory RestApi editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
@@ -145,7 +145,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do OCS Inventory Reports, aguarde..."
 	sleep 2
-	vim /etc/apache2/conf-available/ocsinventory-reports.conf
+	nano /etc/apache2/conf-available/ocsinventory-reports.conf
 echo -e "Arquivo de configuração do OCS Inventory Reports editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
@@ -172,7 +172,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do OCS Inventory Reports DBConfig, aguarde..."
 	sleep 2
-	vim /usr/share/ocsinventory-reports/ocsreports/dbconfig.inc.php
+	nano /usr/share/ocsinventory-reports/ocsreports/dbconfig.inc.php
 echo -e "Arquivo de configuração do OCS Inventory Reports DBConfig editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
@@ -199,7 +199,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do OCS Inventory Reports Logrotate, aguarde..."
 	sleep 2
-	vim /etc/logrotate.d/ocsinventory-server
+	nano /etc/logrotate.d/ocsinventory-server
 echo -e "Arquivo de configuração do OCS Inventory Reports Logrotate editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
@@ -232,7 +232,7 @@ echo
 #
 echo -e "Editando do arquivo de configuração do SNMP MIBs, aguarde..."
 	sleep 2
-	vim /etc/snmp/snmp.conf
+	nano /etc/snmp/snmp.conf
 echo -e "Arquivo de configuração do OCS Inventory Reports DBConfig editado com sucesso!!!, continuando com o script..."
 sleep 2
 echo
