@@ -55,18 +55,18 @@ APP_PASS="Aged2022"
 # Github: https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases
 # Versão antiga utilizada no vídeo: 2.4/OCSNG_UNIX_SERVER_2.4.tar.gz
 # Voltado para a versão 2.7 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSVERSION="2.7/OCSNG_UNIX_SERVER_2.7.tar.gz"
-OCSTAR="OCSNG_UNIX_SERVER_2.7.tar.gz"
-OCSINSTALL="OCSNG_UNIX_SERVER_2.7"
+OCSVERSION="2.10.0/OCSNG_UNIX_SERVER-2.10.0.tar.gz"
+OCSTAR="OCSNG_UNIX_SERVER-2.10.0.tar.gz"
+OCSINSTALL="OCSNG_UNIX_SERVER-2.10.0"
 #
 # Variáveis de download do OCS Inventory Agent
 # Site: https://www.ocsinventory-ng.org/en/
 # Github: https://github.com/OCSInventory-NG/UnixAgent/releases
 # Versão antiga utilizada no vídeo: 2.3/Ocsinventory-Unix-Agent-2.3.tar.gz
 # Atualização para a versão 2.6.1 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSAGENTVERSION="v2.6.1/Ocsinventory-Unix-Agent-2.6.1.tar.gz"
-OCSAGENTTAR="Ocsinventory-Unix-Agent-2.6.1.tar.gz"
-OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.6.1"
+OCSAGENTVERSION="v2.9.3/Ocsinventory-Unix-Agent-2.9.3.tar.gz"
+OCSAGENTTAR="Ocsinventory-Unix-Agent-2.9.3.tar.gz"
+OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.9.3"
 #
 # Variáveis de download do GLPI Help Desk
 # Site: http://glpi-project.org/spip.php?article41
@@ -142,7 +142,7 @@ SNMP="/usr/share/snmp/mibs"
 MIBS="/var/lib/ocsinventory-reports/snmp"
 #
 # Variável de localização do diretório dos arquivos de MIBs Personalizados do OCS Inventory Agent
-PM="/usr/local/share/perl/5.22.1/Ocsinventory/Agent/Modules/Snmp"
+PM="/usr/local/share/perl/5.30.0/Ocsinventory/Agent/Modules/Snmp"
 #
 # Variável de localização do diretório dos arquivos de Modelos de MIBs XML Personalizados do OCS Inventory Agent
 # OBSERVAÇÃO: alterar o endereço HTTPS para FQDN ou IP do seu servidor de OCS Inventory Reports
@@ -158,9 +158,9 @@ XMLREMOTE="/var/lib/ocsinventory-agent/https:__srvocsinv.aged.intra/snmp/mibs/re
 # Versões antigas utilizada no vídeo: Win10-2.3.1.1, WinXP-2.1.1, Mac-2.3.1, Android-2.3.1, Tools-2.3 e Deploy-2.3
 # Atualização para as versões: Win10-2.8.x, WinXP-2.1.1(Manteve a mesma versão), Mac-2.8.x, Android-2.7.x, Tools-2.8.x, Deploy-2.3
 # (Manteve a mesma versão) e Unix-1.1.x no dia 08/11/2020 - verificar arquivo CHANGELOG
-OCSAGENTWIN10="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.8.0.0/OCS-Windows-Agent-2.8.0.0_x64.zip"
+OCSAGENTWIN10="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.9.2.0/OCS-Windows-Agent-2.9.2.0_x64.zip"
 OCSAGENTWINXP="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.1.1.1/OCSNG-Windows-Agent-2.1.1.zip"
-OCSAGENTMAC="https://github.com/OCSInventory-NG/UnixAgent/releases/download/v2.8.0-MAC/Ocsinventory-Unix-Agent-2.8.0-MAC.tar.gz"
+OCSAGENTMAC="https://github.com/OCSInventory-NG/UnixAgent/releases/download/v2.9.3/Ocsinventory_Unix_Agent-2.9.3-MAC.tar.gz"
 OCSAGENTANDROID="https://github.com/OCSInventory-NG/AndroidAgent/releases/download/2.7/OCSNG-Android-Agent.2.7.apk"
 OCSAGENTTOOLS="https://github.com/OCSInventory-NG/Packager-for-Windows/releases/download/2.8/OCS-Windows-Packager-2.8.zip"
 OCSAGENTDEPLOY="https://github.com/OCSInventory-NG/Agent-Deployment-Tool/releases/download/2.3/OCSNG-Agent-Deploy-Tool-2.3.zip"
@@ -179,7 +179,7 @@ DRIVERLIST="https://github.com/PluginsOCSInventory-NG/driverslist/releases/downl
 #
 # Plugin02: Machine Uptime (Retrieve Machine Uptime - Windows e Linux)
 # Atualização para a versão 2.0 no dia 07/08/2020 - verificar arquivo CHANGELOG
-UPTIME="https://github.com/PluginsOCSInventory-NG/uptime/releases/download/2.0/uptime.zip"
+UPTIME="https://github.com/PluginsOCSInventory-NG/uptime/releases/download/2.1/uptime.zip"
 #
 # Plugin03: List printers (Retrieve connected printers - Windows e Linux)
 # Atualização para a versão 2.0 no dia 07/08/2020 - verificar arquivo CHANGELOG
